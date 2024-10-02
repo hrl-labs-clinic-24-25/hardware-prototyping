@@ -2,46 +2,29 @@
 // include the SPI library:
 #include <SPI.h>
 
-
 // set pin 10 as the slave select for the digital pot:
 const int CS_0 = 10;
-const int buttonHigh = 17;
-const int buttonLow = 7;
 
 void setup() {
-  // Establish a button to send data back and forth
-  pinMode (buttonHigh, INPUT);
-  pinMode (buttonLow, INPUT);
-
   // set the CS_0 as an output:
   pinMode (CS_0, OUTPUT);
   digitalWrite (CS_0, HIGH);
   // initialize SPI:
   SPI.begin(); 
+  // get serial monitor printing
+  Serial.begin(9600);
+  while (!Serial) delay(10);
+  Serial.println("Serial connected.");
 }
 
 void loop() {
 
-  if (buttonHigh) {
-    int top = 0b11101110;
-    int mid = 0b11011111;
-    int bot = 0b10110101;
-    dacPackage(currentChip, top, mid, bot);
-    delay(50);
-    while (buttonHigh) {}
-    delay(50);
-  }
-
-  if (buttonLow) {
-    int top = 0b10000001;
-    int mid = 0b10010101;
-    int bot = 0b10100011;
-    dacPackage(currentChip, top, mid, bot);
-    delay(50);
-    while (buttonLow) {}
-    delay(50);
-  }
-
+    int top = 0b00011111;
+    int mid = 0b11111111;
+    int bot = 0b11111111;
+    dacPackage(CS_0, top, mid, bot);
+    /* delay(1000);
+    Serial.println("I looped.");*/ 
 }
 
 void dacPackage(int chipSelect, int upperByte, int centerByte, int bottomByte) {
