@@ -32,11 +32,12 @@ void setup() {
 }
 
 void loop() {
-    // delay(1000);
-    // Serial.println("I looped.");
+  dacPackage(CS_0, top1, mid1, bot1); // package
+  // delay(1000);
+  // Serial.println("I looped.");
 }
 
-void dacPackage(int chipSelect, int threeBytes) {
+void dacPackage(int chipSelect, int upperByte, int middleByte, int bottomByte) {
   // gain control of the SPI port and configure settings
   SPI.beginTransaction(SPISettings(3400000, MSBFIRST, SPI_MODE1));  // currently 3.4MHz
   // take the desired CS pin low to select the DAC:
