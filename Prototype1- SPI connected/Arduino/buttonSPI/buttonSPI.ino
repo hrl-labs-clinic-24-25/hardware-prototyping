@@ -5,8 +5,8 @@
 
 // set pin 10 as the slave select for the digital pot:
 const int CS_0 = 10;
-const int buttonHigh = 17;
-const int buttonLow = 7;
+const int buttonHigh = 21;
+const int buttonLow = 20;
 
 void setup() {
   // Establish a button to send data back and forth
