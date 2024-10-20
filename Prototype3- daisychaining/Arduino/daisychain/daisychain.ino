@@ -25,6 +25,7 @@ void setup() {
   int mid = 0b00000000;
   int bot = 0b00010010;
   // digitalWrite(CS_0,HIGH);
+
   // send 5V to DACs
   // digitalWrite(CS_0,LOW);
   int top1 = 0b00011000;
@@ -33,7 +34,7 @@ void setup() {
   // digitalWrite(CS_0,HIGH);
 
   dacPackage(CS_0, top, mid, bot); // init
-  dacPackage(CS_0, top1, mid1, bot1); // package
+  dacPackage(CS_0, top1, mid1, bot1); // 5V package
 
   // delay(500);
 
@@ -57,37 +58,49 @@ void loop() {
   // int bot1 = 0b00000000;
   // dacPackage(CS_0, top1, mid1, bot1); // package
 
-  SPI.beginTransaction(SPISettings(3400000, MSBFIRST, SPI_MODE1));  // currently 3.4MHz
+  SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE1));  // currently 3.4MHz
+  
   // take the desired CS pin low to select the DAC:
   digitalWrite(CS_0,LOW);
   // send the 24 bit message over in 3 byte chunks:
-  byte upperByte = 0b00000001;
-  byte centerByte = 0b00000010;
-  byte bottomByte = 0b00000011;
-  byte bottomestByte = 0b00000101;
-  byte oneByte = 0b00000111;
-  byte twoByte = 0b00001000;
+  byte oneByte = 0b00011010; //0b00000001
+  byte twoByte = 0b00000000; //0b00000010
+  byte threeByte = 0b00000000; //0b00000011
+  byte fourByte = 0b00011010; //0b00000101
+  byte fiveByte = 0b00000000; //0b00000111
+  byte sixByte = 0b00000000; //0b00001000
   
-  SPI.transfer(upperByte);
-  SPI.transfer(centerByte);
-  SPI.transfer(bottomByte);
-  delayMicroseconds(10);
-  SPI.transfer(bottomestByte);
   SPI.transfer(oneByte);
   SPI.transfer(twoByte);
+  SPI.transfer(threeByte);
+  // delayMicroseconds(10);
+  // SPI.transfer(fourByte);
+  // SPI.transfer(fiveByte);
+  // SPI.transfer(twoByte);
+
   // Serial.print("upper: ");
-  // Serial.println(upperByte);
+  // Serial.println(oneByte);
   // Serial.print("center: ");
-  // Serial.println(centerByte);
+  // Serial.println(twoByte);
   // Serial.print("bottom: ");
-  // Serial.println(bottomByte);
+  // Serial.println(threeByte);
   // Serial.print("bottomest: ");
-  // Serial.println(bottomestByte);
+  // Serial.println(fourByte);
 
   // take the desired CS pin high to de-select the chip:
   digitalWrite(CS_0,HIGH);
   // release control of the SPI port
   SPI.endTransaction();
+
+  SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE1));
+  digitalWrite(CS_0, LOW);
+
+  SPI.transfer(fourByte);
+  SPI.transfer(fiveByte);
+  SPI.transfer(sixByte);
+  digitalWrite(CS_0, HIGH);
+  SPI.endTransaction();
+
 }
 
 void dacPackage(int chipSelect, int upperByte, int centerByte, int bottomByte) {
