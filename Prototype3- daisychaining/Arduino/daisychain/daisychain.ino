@@ -15,55 +15,48 @@ void setup() {
   Serial.begin(9600);
   while (!Serial) delay(10);
   Serial.println("Serial connected.");
-  // initialize DAC
-  // dacPackage(CS_0, 0b00100000, 0b00000000, 0b00010010);
-  //   Serial.println("DAC initialized.");
 
   // initialize DAC:
-  // digitalWrite(CS_0,LOW);
+  SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE1));
+  digitalWrite(CS_0, LOW);
   int top = 0b00100000; 
   int mid = 0b00000000;
   int bot = 0b00010010;
-  // digitalWrite(CS_0,HIGH);
+  SPI.transfer(top);
+  SPI.transfer(mid);
+  SPI.transfer(bot);
+  SPI.transfer(top);
+  SPI.transfer(mid);
+  SPI.transfer(bot);
+  digitalWrite(CS_0, HIGH);
+  SPI.endTransaction();
+  Serial.println("DAC initialized.");
 
-  // send 5V to DACs
-  // digitalWrite(CS_0,LOW);
-  int top1 = 0b00011000;
-  int mid1 = 0b00000000;
-  int bot1 = 0b00000000;
-  // digitalWrite(CS_0,HIGH);
+  // // send 5V to DACs
+  // SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE1));
+  // digitalWrite(CS_0, LOW);
+  // int top1 = 0b00011000;
+  // int mid1 = 0b00000000;
+  // int bot1 = 0b00000000;
+  // SPI.transfer(top1);
+  // SPI.transfer(mid1);
+  // SPI.transfer(bot1);
+  // SPI.transfer(top1);
+  // SPI.transfer(mid1);
+  // SPI.transfer(bot1);
+  // digitalWrite(CS_0, HIGH);
+  // SPI.endTransaction();
+  // Serial.println("Sent 5V.");
 
-  dacPackage(CS_0, top, mid, bot); // init
-  dacPackage(CS_0, top1, mid1, bot1); // 5V package
-
-  // delay(500);
+  // delay(2000);
 
 }
 
 void loop() {
-  // byte dummySDOByte = SPI.transfer(0x00); // Receive data by sending a dummy byte
-  // byte secondDummyByte = SPI.transfer(0b00111111);
-  // Serial.print("Dummy SDO Byte: ");
-  // Serial.println(dummySDOByte);
-  // Serial.print("Second dummy byte:");
-  // Serial.println(secondDummyByte);
-
-
-    // delay(1000);
-    // Serial.println("I looped.");
-    // delay(1000);
-
-  // int top1 = 0b00011010;
-  // int mid1 = 0b00000000;
-  // int bot1 = 0b00000000;
-  // dacPackage(CS_0, top1, mid1, bot1); // package
-
   SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE1));  // currently 3.4MHz
-  
-  // take the desired CS pin low to select the DAC:
   digitalWrite(CS_0,LOW);
-  // send the 24 bit message over in 3 byte chunks:
-  byte oneByte = 0b00011010; //0b00000001
+  // send the 48 bit message over in 6 byte chunks:
+  byte oneByte = 0b00011000; //0b00000001
   byte twoByte = 0b00000000; //0b00000010
   byte threeByte = 0b00000000; //0b00000011
   byte fourByte = 0b00011010; //0b00000101
@@ -73,33 +66,28 @@ void loop() {
   SPI.transfer(oneByte);
   SPI.transfer(twoByte);
   SPI.transfer(threeByte);
-  // delayMicroseconds(10);
-  // SPI.transfer(fourByte);
-  // SPI.transfer(fiveByte);
-  // SPI.transfer(twoByte);
+  // Serial.println("Sent first three bytes");
+  // delay(2000);
+  // delayMicroseconds(50);
+  SPI.transfer(fourByte);
+  SPI.transfer(fiveByte);
+  SPI.transfer(twoByte);
+  // Serial.println("Sent second three bytes");
+  // delay(2000);
 
-  // Serial.print("upper: ");
-  // Serial.println(oneByte);
-  // Serial.print("center: ");
-  // Serial.println(twoByte);
-  // Serial.print("bottom: ");
-  // Serial.println(threeByte);
-  // Serial.print("bottomest: ");
-  // Serial.println(fourByte);
-
-  // take the desired CS pin high to de-select the chip:
   digitalWrite(CS_0,HIGH);
+  // Serial.println("CS HIGH");
   // release control of the SPI port
   SPI.endTransaction();
 
-  SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE1));
-  digitalWrite(CS_0, LOW);
+  // SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE1));
+  // digitalWrite(CS_0, LOW);
 
-  SPI.transfer(fourByte);
-  SPI.transfer(fiveByte);
-  SPI.transfer(sixByte);
-  digitalWrite(CS_0, HIGH);
-  SPI.endTransaction();
+  // SPI.transfer(fourByte);
+  // SPI.transfer(fiveByte);
+  // SPI.transfer(sixByte);
+  // digitalWrite(CS_0, HIGH);
+  // SPI.endTransaction();
 
 }
 
@@ -112,13 +100,6 @@ void dacPackage(int chipSelect, int upperByte, int centerByte, int bottomByte) {
   upperByte = SPI.transfer(upperByte);
   centerByte = SPI.transfer(centerByte);
   bottomByte = SPI.transfer(bottomByte);
-  // bottomestByte = SPI.transfer(bottomestByte);
-  // Serial.print("upper: ");
-  // Serial.println(upperByte);
-  // Serial.print("center: ");
-  // Serial.println(centerByte);
-  // Serial.print("bottom: ");
-  // Serial.println(bottomByte);
 
   // take the desired CS pin high to de-select the chip:
   digitalWrite(chipSelect,HIGH);
