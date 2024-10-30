@@ -3,19 +3,19 @@
 #include <SPI.h>
 
 // set pin 10 as the slave select
-const int CS_0 = 10;
-const int buttonHighPin = 21;
-const int buttonLowPin = 20;
-
+const int CS = 10;
 const int muxS0Pin = 7;
 
-void setup() {
-  // set the CS_0 as an output, buttons as inputs:
-  pinMode (CS_0, OUTPUT); 
-  digitalWrite (CS_0, HIGH);
+const int CS_0 = 0;
+const int CS_1 = 1;
 
-  pinMode (buttonHighPin, INPUT);
-  pinMode (buttonLowPin, INPUT);
+const int topRail = 0b000111111111111111111111;  // 5 V
+const int botRail = 0b000110000000000000000000;  // 2.5 V
+
+void setup() {
+  // set the MCU CS pin as an output, and make sure it's high
+  pinMode (CS, OUTPUT); 
+  digitalWrite (CS, HIGH);
 
   pinMode (muxS0Pin, OUTPUT);
   digitalWrite (muxS0Pin, LOW);
@@ -28,47 +28,49 @@ void setup() {
   Serial.println("Serial connected.");
   int initDAC = 0b001000000000000000010010;
   dacPackage(CS_0,initDAC);
-  Serial.println("DAC Initialized");
+  dacPackage(CS_1,initDAC);
+  Serial.println("DACs Initialized");
 }
 
 void loop() {
-  int buttonHigh = 0;
-  int buttonLow = 0;
-  buttonHigh = digitalRead(buttonHighPin);
-  buttonLow = digitalRead(buttonLowPin);
+  
+  dacPackage(CS_0, topRail); Serial.println("I SPI'ed CS_0 topRail");
+  delay(1000);
 
-  if (buttonHigh) {
-    int topRail = 0b000101111111111111111111;
-    dacPackage(CS_0, topRail); Serial.println("I SPI'ed CS_0 High");
-    delay(50);
-    while (digitalRead(buttonHighPin)) {dacPackage(CS_0, topRail); delayMicroseconds(6);}
-    delay(50);
-    Serial.println("I finished SPI CS_0 High");
-  }
-  if (buttonLow) {
-    int botRail = 0b000110000000000000000000;
-    dacPackage(CS_0, botRail); Serial.println("I SPI'ed CS_0 Low");
-    delay(50);
-    while (digitalRead(buttonLowPin)) {dacPackage(CS_0, botRail); delayMicroseconds(6);}
-    delay(50);
-    Serial.println("I finished SPI CS_0 Low");
-  }
+  dacPackage(CS_1, topRail); Serial.println("I SPI'ed CS_1 topRail");
+  delay(1000);
+  
+  dacPackage(CS_0, botRail); Serial.println("I SPI'ed CS_0 botRail");
+  delay(1000);
+
+  dacPackage(CS_1, botRail); Serial.println("I SPI'ed CS_1 botRail");
+  delay(1000);
 }
 
 void dacPackage(int chipSelect, int threeBytes) {
+  switch (chipSelect) {
+    case CS_0:          // CS_0 corresponds to S2,S1,S0 = 000
+      digitalWrite (muxS0Pin, LOW);
+      break;
+    case CS_1:
+      digitalWrite (muxS0Pin, HIGH);
+      break;
+  }
+  delay(1);
+
   // gain control of the SPI port and configure settings
   SPI.beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE1));  // currently 4MHz
   int upperByte = (threeBytes >> 16) & 0xFF;  // Extract the upper 8 bits
   int middleByte = (threeBytes >> 8) & 0xFF;  // Extract the middle 8 bits
   int bottomByte = threeBytes & 0xFF;          // Extract the lower 8 bits
   // take the desired CS pin low to select the DAC:
-  digitalWrite(chipSelect,LOW);
+  digitalWrite(CS,LOW);
   // send the 24 bit message over in 3 byte chunks:
   SPI.transfer(upperByte);
   SPI.transfer(middleByte);
   SPI.transfer(bottomByte);
   // take the desired CS pin high to de-select the chip:
-  digitalWrite(chipSelect,HIGH);
+  digitalWrite(CS,HIGH);
   // release control of the SPI port
   SPI.endTransaction();
 }
