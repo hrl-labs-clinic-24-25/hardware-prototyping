@@ -150,7 +150,7 @@
 		(descr "TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
-			(at 0 -3.0375 0)
+			(at 0 3.575 0)
 			(layer "F.SilkS")
 			(uuid "631828ca-5905-451f-8ba7-bd5375f0a730")
 			(effects
@@ -546,7 +546,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.68 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "3f9a479d-bdc5-40e7-bd89-ed00cb83d429")
 			(effects
@@ -759,7 +759,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.68 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "7341a620-eca8-4777-bb32-2f9aba21d5a8")
 			(effects
@@ -972,7 +972,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J10"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "7d2e9804-ee27-4f2b-a31d-bf2ac7d4b55d")
 			(effects
@@ -1868,7 +1868,7 @@
 			(uuid "71359f72-6c1a-4bd6-a050-c68d8c5739df")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "b5df81d1-110c-4340-be10-e1326e330edc")
 			(effects
@@ -2029,7 +2029,7 @@
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J30"
-			(at 0 -2.33 90)
+			(at -0.9 -3 180)
 			(layer "F.SilkS")
 			(uuid "076026a5-922d-4db7-8635-3ae4024a354d")
 			(effects
@@ -2245,7 +2245,7 @@
 			(uuid "e2f84854-7bfc-46f2-8dcf-588f60d5c5c0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 8.89 360)
+			(at 0 8.89 0)
 			(layer "F.Fab")
 			(uuid "0dbe7869-64b1-441e-a7be-a883429fe3be")
 			(effects
@@ -2362,7 +2362,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J23"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "189ec6f3-88ec-4d50-9fee-d44ef96aa40a")
 			(effects
@@ -2637,7 +2637,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J7"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "4fc52911-2100-4c0b-aa14-5851ce6a8310")
 			(effects
@@ -3533,7 +3533,7 @@
 			(uuid "010780e3-4f75-4860-b750-26fe5ec1a9e3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "05798dce-7f27-41d9-91ea-cde67de25171")
 			(effects
@@ -3807,7 +3807,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J13"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "fe07e9c3-e008-47bf-b208-53bab849c7fd")
 			(effects
@@ -4703,7 +4703,7 @@
 			(uuid "6084b5e6-aef7-4bf2-be87-bbfb801dcea2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "40e39ba2-f6a5-4a01-9265-5a9f3b5e3f10")
 			(effects
@@ -4864,7 +4864,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J14"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "50f6715f-5088-4b43-93fd-1933ef655e25")
 			(effects
@@ -5760,7 +5760,7 @@
 			(uuid "b4fa778f-849d-48d2-918d-e1175da0348d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "61dd985e-aec6-4661-819f-c1067fecdf09")
 			(effects
@@ -5921,7 +5921,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP3"
-			(at 0 -1.8 90)
+			(at 3.2 0 180)
 			(layer "F.SilkS")
 			(uuid "f2b3e1e4-b00d-4d73-9ec6-74f9adce10a5")
 			(effects
@@ -6239,11 +6239,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1fa38d67-4761-4e9e-a5ec-8765f01bd154")
-		(at 184.1625 137.225 -90)
+		(at 183.5 137.25 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.68 90)
+			(at 2.55 0 180)
 			(layer "F.SilkS")
 			(uuid "42e091ca-ffd9-4643-b644-059146585bdf")
 			(effects
@@ -6569,7 +6569,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J22"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "6c5e26c2-5d20-4274-b556-64da5d2b4ecd")
 			(effects
@@ -6957,7 +6957,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
-			(at 0 -4.5 90)
+			(at -5.3 0 180)
 			(layer "F.SilkS")
 			(uuid "d6a5943c-9166-4e63-b535-c556dc7fba38")
 			(effects
@@ -7165,7 +7165,7 @@
 			(uuid "59fa74d0-6d35-4599-9585-a7cb4591c8c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "17e61f04-8f24-41e3-af9c-82dd302071de")
 			(effects
@@ -7347,7 +7347,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "U3"
-			(at 0 -4.5 90)
+			(at -7.165 0.0375 180)
 			(layer "F.SilkS")
 			(uuid "cd3f592a-85f3-4da3-95ea-7a7270e08ca0")
 			(effects
@@ -7784,7 +7784,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.68 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "47764946-ea24-4bbd-a09d-55fa5bcf8df6")
 			(effects
@@ -7997,7 +7997,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J21"
-			(at 0 -2.77 90)
+			(at 0 -2.77 180)
 			(layer "F.SilkS")
 			(uuid "3c27946b-e7e1-47bd-a554-b89bad1ac793")
 			(effects
@@ -8477,7 +8477,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J18"
-			(at 0 -2.77 90)
+			(at 0 -3.214286 180)
 			(layer "F.SilkS")
 			(uuid "54ad1969-f774-425b-9200-e73442ff0cb4")
 			(effects
@@ -9224,7 +9224,7 @@
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J31"
-			(at 0 -2.33 90)
+			(at -0.9 -3.04 180)
 			(layer "F.SilkS")
 			(uuid "b7909ab8-1dc1-4e1f-bb10-f5ffb2bc5dbe")
 			(effects
@@ -9440,7 +9440,7 @@
 			(uuid "6c8c2976-51bf-4d7c-9e6f-c69478512e1b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 8.89 360)
+			(at 0 8.89 0)
 			(layer "F.Fab")
 			(uuid "ef2d2010-589c-4384-9ce8-019f09632077")
 			(effects
@@ -9557,7 +9557,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.68 90)
+			(at -2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "0454df6a-1933-42d2-9a17-787c4e465052")
 			(effects
@@ -9770,7 +9770,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J2"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "e07a2bd0-d0a9-4d09-8568-74fdd159b7fa")
 			(effects
@@ -10666,7 +10666,7 @@
 			(uuid "daf9472c-9262-401d-a63e-0f09bec8a17d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "71f53938-be69-46de-8f76-5aa571693f94")
 			(effects
@@ -10827,7 +10827,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J28"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "1656fb92-9604-4320-b07a-c140779c6c5a")
 			(effects
@@ -12116,7 +12116,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J24"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "537f46fe-8361-494e-b195-1d827a1e244d")
 			(effects
@@ -12658,7 +12658,7 @@
 		(descr "Through hole IDC box header, 2x12, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x12 2.54mm double row")
 		(property "Reference" "J1"
-			(at 1.27 -6.1 90)
+			(at -4.3 -4.8 180)
 			(layer "F.SilkS")
 			(uuid "4d73afaf-b49e-4f34-b4e9-d5d4e4a49fce")
 			(effects
@@ -13044,7 +13044,7 @@
 			(uuid "71642336-fa24-42f4-928d-54bdf3e2e657")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 13.97 360)
+			(at 1.27 13.97 0)
 			(layer "F.Fab")
 			(uuid "6d5131ba-7c06-47ab-babb-18c7740f3431")
 			(effects
@@ -13338,7 +13338,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.77 90)
+			(at 0 -2.77 180)
 			(layer "F.SilkS")
 			(uuid "ea8bc2e5-6cb8-4d91-85d4-93921d003e99")
 			(effects
@@ -13605,7 +13605,7 @@
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.33 90)
+			(at -0.9 -2.68 180)
 			(layer "F.SilkS")
 			(uuid "d2a1b2d4-9a16-427d-8097-ea616291295b")
 			(effects
@@ -13821,7 +13821,7 @@
 			(uuid "41e03ab7-19d5-4e45-b0d9-337e73586e7f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 8.89 360)
+			(at 0 8.89 0)
 			(layer "F.Fab")
 			(uuid "c603c8da-7e4b-4732-b3c2-bb7c12e0f611")
 			(effects
@@ -14051,7 +14051,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J11"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "ee52d727-528b-4831-bfb1-ebf62006639f")
 			(effects
@@ -14947,7 +14947,7 @@
 			(uuid "ba943a3b-b64f-4c2c-b955-8684addb4185")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "bab244a0-ccf7-4cbd-befe-ec3c5add1132")
 			(effects
@@ -15543,11 +15543,11 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "93daae36-5168-4f67-850d-23a6bb5b989e")
-		(at 124.4 136.4 180)
+		(at 124.5 135.2 180)
 		(descr "Mounting Hole 6.4mm, M6, DIN965")
 		(tags "mounting hole 6.4mm m6 din965")
 		(property "Reference" "J4"
-			(at 7.2 0.4 180)
+			(at 0 -6.7 180)
 			(layer "F.SilkS")
 			(uuid "da771278-1a87-494c-86d1-2e8695da3d11")
 			(effects
@@ -15662,7 +15662,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J20"
-			(at 0 -2.77 90)
+			(at 0 -2.77 180)
 			(layer "F.SilkS")
 			(uuid "5904d205-c1e5-4c09-b96c-aa3cee7ffa36")
 			(effects
@@ -16405,11 +16405,11 @@
 	(footprint "MountingHole:MountingHole_6.4mm_M6_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "a91b7694-ee35-4fc4-a8f2-774230d02b5d")
-		(at 107.8 136.4 180)
+		(at 107.8 135.2 180)
 		(descr "Mounting Hole 6.4mm, M6, DIN965")
 		(tags "mounting hole 6.4mm m6 din965")
 		(property "Reference" "J3"
-			(at 7 0.1 180)
+			(at 0 -6.7 180)
 			(layer "F.SilkS")
 			(uuid "27f1dd82-7ef1-4daf-94fd-74c2998f459b")
 			(effects
@@ -16524,7 +16524,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J29"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "8474f05a-f1a8-48eb-b353-1d0994c312cf")
 			(effects
@@ -16799,7 +16799,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J17"
-			(at 0 -2.77 90)
+			(at 0 -3.214286 180)
 			(layer "F.SilkS")
 			(uuid "fa47928d-aa9d-498f-bff3-319bda37f053")
 			(effects
@@ -17066,7 +17066,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J19"
-			(at 0 -2.77 90)
+			(at 0 -3.214286 180)
 			(layer "F.SilkS")
 			(uuid "3bf74e53-c73e-43e3-a55e-fce34c215499")
 			(effects
@@ -17333,7 +17333,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J25"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "9f019f84-9a6a-4405-b8c1-dc2ffea83fb2")
 			(effects
@@ -17821,7 +17821,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J16"
-			(at 0 -2.77 90)
+			(at 0 -3.214286 180)
 			(layer "F.SilkS")
 			(uuid "dfe27fa3-7fd4-4117-ac83-1c554b304c8c")
 			(effects
@@ -18088,7 +18088,7 @@
 		(descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x10 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0 -2.33 90)
+			(at -0.9 -2.56 180)
 			(layer "F.SilkS")
 			(uuid "8e288959-f9c8-4bfe-9419-34bb2285851a")
 			(effects
@@ -18304,7 +18304,7 @@
 			(uuid "58f642ce-f74a-48a4-b2cc-ea628f204a6e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 11.43 360)
+			(at 0 11.43 0)
 			(layer "F.Fab")
 			(uuid "b31f79cf-5623-47cd-97e9-042c43b95df5")
 			(effects
@@ -18923,7 +18923,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J12"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "b0833073-67bb-495b-9ac1-3f1963e7f314")
 			(effects
@@ -19819,7 +19819,7 @@
 			(uuid "d7790166-163f-4b38-967c-f39dfc338c3f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "13c6284e-dda2-4888-8f4f-b92ab65b1989")
 			(effects
@@ -19980,7 +19980,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J27"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "944c3aa9-5af2-4035-a8f7-27a18978a54d")
 			(effects
@@ -20522,7 +20522,7 @@
 		(descr "Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 2x06 2.54mm double row")
 		(property "Reference" "J9"
-			(at -5.65 -2.77 90)
+			(at 2 -0.6 180)
 			(layer "F.SilkS")
 			(uuid "324a4971-e212-4fc8-98a5-6cabcfffb763")
 			(effects
@@ -21418,7 +21418,7 @@
 			(uuid "64bf3dcf-950c-4736-bf1f-961dc014fcfa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -8.315 6.35 360)
+			(at -8.315 6.35 0)
 			(layer "F.Fab")
 			(uuid "bd63c2d7-f124-4b74-97f3-08a1f2459302")
 			(effects
@@ -21905,7 +21905,7 @@
 		(descr "https://www.amphenolrf.com/downloads/dl/file/id/1141/product/2978/132134_16_customer_drawing.pdf")
 		(tags "SMA THT Female Jack Vertical ExtendedLegs")
 		(property "Reference" "J26"
-			(at 0 -4.75 0)
+			(at 0 5.06 0)
 			(layer "F.SilkS")
 			(uuid "e4202fc3-3e10-4854-8100-6d06aecc5d1d")
 			(effects
@@ -22180,7 +22180,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J15"
-			(at 0 -2.77 90)
+			(at 0 -3.214286 180)
 			(layer "F.SilkS")
 			(uuid "8a814c62-f130-4657-872d-16ac9bbd0e46")
 			(effects
@@ -22461,6 +22461,138 @@
 		(layer "User.9")
 		(uuid "1bdf2dad-f93b-490f-a0fc-b0c6e8d62c5a")
 	)
+	(gr_text "S0    S2   COPI  ~{LDAC}   ~{CLR}"
+		(at 220.6 142.6 0)
+		(layer "F.SilkS")
+		(uuid "0c98ca24-6ac8-4c6c-90fc-fc8d617135db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VO4   VO5   VO6   VO7"
+		(at 198.6 93.4 0)
+		(layer "F.SilkS")
+		(uuid "10cae3f1-fc73-4b93-9326-851ee55122e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OG4   OG5   OG6   OG7"
+		(at 201.1 88.4 0)
+		(layer "F.SilkS")
+		(uuid "6d5564b0-9320-4333-a89b-9fd18de33658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S1   SCLK   CS  ~{RESET}  GND"
+		(at 223.1 137.5 0)
+		(layer "F.SilkS")
+		(uuid "7d31efb3-2df9-4db7-881a-6114ae42bd38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VO0   VO1   VO2   VO3"
+		(at 103.1 93.4 0)
+		(layer "F.SilkS")
+		(uuid "a0b025c3-279a-4694-8c41-461a3ffbec8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CS0   CS2   CS4   CS6"
+		(at 191 142.8 0)
+		(layer "F.SilkS")
+		(uuid "ae1b95e1-50fa-4f12-bc09-be3d6e9bd399")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CS1   CS3   CS5   CS7"
+		(at 193.6 137.7 0)
+		(layer "F.SilkS")
+		(uuid "cc7537a7-d780-4f29-9f92-5f4eb0f65af0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OG0   OG1   OG2   OG3"
+		(at 105.5 88.4 0)
+		(layer "F.SilkS")
+		(uuid "f7ba8bc4-9111-48af-a99c-f8a4fa0a9eb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "add silkscreen"
+		(at 208.6 84.3 0)
+		(layer "Cmts.User")
+		(uuid "1b356cf1-a210-45d1-bdce-e798b113ea36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "add another IDC on DAC out for P2"
+		(at 163.7 82.1 0)
+		(layer "Cmts.User")
+		(uuid "1eed4bfd-be2c-434b-b209-a500b34e73b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "add 1x6 IDC  connector for VCC"
+		(at 33.4 123.9 0)
+		(layer "Cmts.User")
+		(uuid "47a20f5c-7867-4d64-a3f9-ae70d1d92a4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "is this plated hole footprint for the bananas good?"
 		(at 104.6 147.3 0)
 		(layer "Cmts.User")
@@ -22485,10 +22617,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Are there any signals sensitive to parasitic inductance from vias?"
-		(at 50 148.7 0)
+	(gr_text "and LEDs"
+		(at 211.8 149.1 0)
 		(layer "Cmts.User")
-		(uuid "ddcd390e-234a-49c0-b41c-25712f4473ab")
+		(uuid "7789f185-fe37-47c1-88af-6e1c924f6b0b")
 		(effects
 			(font
 				(size 1 1)
@@ -22497,10 +22629,34 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Is this gap wide enough?"
-		(at 250.7 103.1 0)
+	(gr_text "add silkscree"
+		(at 207.5 146.3 0)
 		(layer "Cmts.User")
-		(uuid "e1c8c798-600f-4790-8f5d-c7e1e8cc8698")
+		(uuid "c198daf3-5f46-4e21-beae-3d8c655a73de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "split into two PCBs"
+		(at 29.3 112 0)
+		(layer "Cmts.User")
+		(uuid "dd626b93-773f-4179-9fd1-5326c4dc0b48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Are there any signals sensitive to parasitic inductance from vias?"
+		(at 50 148.7 0)
+		(layer "Cmts.User")
+		(uuid "ddcd390e-234a-49c0-b41c-25712f4473ab")
 		(effects
 			(font
 				(size 1 1)
