@@ -4922,8 +4922,16 @@
 		(uuid "f4028416-c116-4d2c-9318-fede424fc888")
 	)
 	(no_connect
+		(at 162.56 119.38)
+		(uuid "1fef1058-11a6-4cfd-a8f0-e234ed06155e")
+	)
+	(no_connect
 		(at 96.52 181.61)
 		(uuid "403419e1-3696-4d89-a5bd-e7667f2bc566")
+	)
+	(no_connect
+		(at 162.56 121.92)
+		(uuid "4721920e-4027-4bc9-a411-0cad6f344c34")
 	)
 	(no_connect
 		(at 45.72 151.13)
@@ -4938,16 +4946,32 @@
 		(uuid "78d682f8-d839-484c-a022-fbe5ad40bb82")
 	)
 	(no_connect
+		(at 162.56 127)
+		(uuid "81b6aeb6-d5f3-4325-885c-8d3887aa9aca")
+	)
+	(no_connect
 		(at 45.72 88.9)
 		(uuid "96ccdcc3-43a2-489e-bba3-8985394307ee")
+	)
+	(no_connect
+		(at 162.56 111.76)
+		(uuid "9fba7ba6-86ae-452b-bc89-0b8fc70fdfda")
 	)
 	(no_connect
 		(at 45.72 181.61)
 		(uuid "a57cbeab-9b19-47ff-8154-4c345c60f0f2")
 	)
 	(no_connect
+		(at 162.56 114.3)
+		(uuid "b5ec6326-e4cc-4dcd-b0be-47cba9f0934c")
+	)
+	(no_connect
 		(at 96.52 88.9)
 		(uuid "ba4ec97b-6c45-45f1-8243-2f4f692a153e")
+	)
+	(no_connect
+		(at 162.56 129.54)
+		(uuid "d514205e-6286-4042-8f55-eaffae0f1071")
 	)
 	(no_connect
 		(at 96.52 119.38)
@@ -8242,7 +8266,7 @@
 		(uuid "05d79105-defd-450e-9058-2f090ffe8dd8")
 	)
 	(label "SCLK"
-		(at 182.88 119.38 0)
+		(at 175.26 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8418,7 +8442,7 @@
 		(uuid "2667efbf-b1a5-448d-bd52-a5fe7c57364e")
 	)
 	(label "~{RESET}"
-		(at 182.88 132.08 0)
+		(at 175.26 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8495,7 +8519,7 @@
 		(uuid "30ec3776-c6f0-4628-9d19-7ed8261da006")
 	)
 	(label "COPI"
-		(at 182.88 121.92 0)
+		(at 175.26 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8758,6 +8782,17 @@
 		)
 		(uuid "5307013a-923e-46d4-9b2e-3961b64a4fb9")
 	)
+	(label "CIPO"
+		(at 175.26 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aa2a957-d098-4bc5-a883-462787f9111f")
+	)
 	(label "OGND_7"
 		(at 254 152.4 0)
 		(fields_autoplaced yes)
@@ -8792,13 +8827,13 @@
 		(uuid "5c2f7624-7421-41f9-8ad3-4e36a5bef5ca")
 	)
 	(label "S2"
-		(at 182.88 114.3 0)
+		(at 162.56 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6053eebd-83e6-458c-ac55-4358da75064e")
 	)
@@ -8880,7 +8915,7 @@
 		(uuid "68e72e28-a49e-4f7d-a406-c671b1768a1c")
 	)
 	(label "S0"
-		(at 182.88 109.22 0)
+		(at 175.26 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9067,7 +9102,7 @@
 		(uuid "7fc1655c-a00f-430d-8581-a869981f4102")
 	)
 	(label "S1"
-		(at 182.88 111.76 0)
+		(at 175.26 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9430,7 +9465,7 @@
 		(uuid "a832c482-df9c-4d5c-8a5b-9a2ed5e80494")
 	)
 	(label "~{LDAC}"
-		(at 182.88 129.54 0)
+		(at 175.26 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9529,7 +9564,7 @@
 		(uuid "b6e3aa70-9945-408c-b687-4f5a449c2da1")
 	)
 	(label "~{CLR}"
-		(at 182.88 134.62 0)
+		(at 175.26 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10002,13 +10037,13 @@
 		(uuid "f850efc7-16c4-43b4-ab48-7c66a546552a")
 	)
 	(label "CS"
-		(at 182.88 124.46 0)
+		(at 162.56 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fa842da9-d015-4e10-a729-722fd4a5c86a")
 	)
