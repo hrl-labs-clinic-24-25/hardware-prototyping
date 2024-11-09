@@ -2891,6 +2891,102 @@
 				)
 			)
 		)
+		(symbol "GND_2"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HRL_Custom:Banana_Connector_THT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5349,13 +5445,13 @@
 		(uuid "165be3b2-0636-424c-84cf-ff39a6c4213e")
 	)
 	(junction
-		(at 157.48 142.24)
+		(at 157.48 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1781300b-b509-4a38-8860-db3c50bb83c2")
 	)
 	(junction
-		(at 157.48 127)
+		(at 157.48 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2522e3c5-95fc-4895-9621-ae95da44a7df")
@@ -5379,13 +5475,13 @@
 		(uuid "2fc4fab4-cf09-48f8-b970-a7a2192c9622")
 	)
 	(junction
-		(at 157.48 134.62)
+		(at 157.48 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a8c799-cee9-4ca9-9b56-f44d53d8b73e")
 	)
 	(junction
-		(at 180.34 121.92)
+		(at 180.34 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "368eb488-20ab-429d-9564-3b4e83b573ec")
@@ -5421,7 +5517,7 @@
 		(uuid "4ecd05d2-9847-4e99-a93c-4caea358c3d9")
 	)
 	(junction
-		(at 180.34 137.16)
+		(at 180.34 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56e82545-79b7-452b-a2a8-02e1d77c1575")
@@ -5463,7 +5559,7 @@
 		(uuid "7c84000d-7f6d-4f8c-ab2a-af6d90907bbc")
 	)
 	(junction
-		(at 180.34 129.54)
+		(at 180.34 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eb035e9-6287-4df7-afe7-116da22e0315")
@@ -5551,7 +5647,7 @@
 		(uuid "1961596b-d561-44c9-98b3-36221db71437")
 	)
 	(no_connect
-		(at 162.56 121.92)
+		(at 162.56 123.19)
 		(uuid "1fef1058-11a6-4cfd-a8f0-e234ed06155e")
 	)
 	(no_connect
@@ -5563,7 +5659,7 @@
 		(uuid "403419e1-3696-4d89-a5bd-e7667f2bc566")
 	)
 	(no_connect
-		(at 162.56 124.46)
+		(at 162.56 125.73)
 		(uuid "4721920e-4027-4bc9-a411-0cad6f344c34")
 	)
 	(no_connect
@@ -5579,7 +5675,7 @@
 		(uuid "78d682f8-d839-484c-a022-fbe5ad40bb82")
 	)
 	(no_connect
-		(at 162.56 129.54)
+		(at 162.56 130.81)
 		(uuid "81b6aeb6-d5f3-4325-885c-8d3887aa9aca")
 	)
 	(no_connect
@@ -5587,7 +5683,7 @@
 		(uuid "96ccdcc3-43a2-489e-bba3-8985394307ee")
 	)
 	(no_connect
-		(at 162.56 114.3)
+		(at 162.56 115.57)
 		(uuid "9fba7ba6-86ae-452b-bc89-0b8fc70fdfda")
 	)
 	(no_connect
@@ -5599,7 +5695,7 @@
 		(uuid "b0421f29-b678-438d-b3e8-29bda60aea2c")
 	)
 	(no_connect
-		(at 162.56 116.84)
+		(at 162.56 118.11)
 		(uuid "b5ec6326-e4cc-4dcd-b0be-47cba9f0934c")
 	)
 	(no_connect
@@ -5611,11 +5707,7 @@
 		(uuid "d13de689-fc0d-41cc-ab5e-167c0bf1a663")
 	)
 	(no_connect
-		(at 163.83 71.12)
-		(uuid "d207219e-9aa4-4176-9a09-6173f81b1639")
-	)
-	(no_connect
-		(at 162.56 132.08)
+		(at 162.56 133.35)
 		(uuid "d514205e-6286-4042-8f55-eaffae0f1071")
 	)
 	(no_connect
@@ -5644,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 142.24) (xy 162.56 142.24)
+			(xy 157.48 143.51) (xy 162.56 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6134,7 +6226,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 134.62) (xy 157.48 142.24)
+			(xy 157.48 135.89) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6154,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 119.38) (xy 157.48 127)
+			(xy 157.48 120.65) (xy 157.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6754,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 73.66) (xy 163.83 73.66)
+			(xy 154.94 73.66) (xy 163.83 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6921,6 +7013,16 @@
 			(type default)
 		)
 		(uuid "63b809b1-33d6-43fd-b190-c53121ee95bb")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647239a0-daaf-49d5-ad3a-269a0889c851")
 	)
 	(wire
 		(pts
@@ -7364,7 +7466,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 121.92) (xy 180.34 129.54)
+			(xy 180.34 123.19) (xy 180.34 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7444,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 114.3) (xy 180.34 114.3)
+			(xy 175.26 115.57) (xy 180.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7804,7 +7906,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 121.92) (xy 175.26 121.92)
+			(xy 180.34 123.19) (xy 175.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8204,7 +8306,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 162.56 127)
+			(xy 157.48 128.27) (xy 162.56 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8221,6 +8323,16 @@
 			(type default)
 		)
 		(uuid "b8f89da1-9249-45c0-ae7c-e78b51480aa7")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bf0521-c110-4589-b4f9-199179bc3b05")
 	)
 	(wire
 		(pts
@@ -8404,7 +8516,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 119.38) (xy 157.48 119.38)
+			(xy 162.56 120.65) (xy 157.48 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8504,7 +8616,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 180.34 129.54)
+			(xy 175.26 130.81) (xy 180.34 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8744,7 +8856,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 137.16) (xy 180.34 149.86)
+			(xy 180.34 138.43) (xy 180.34 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8784,7 +8896,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 134.62) (xy 162.56 134.62)
+			(xy 157.48 135.89) (xy 162.56 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9034,7 +9146,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 137.16) (xy 180.34 137.16)
+			(xy 175.26 138.43) (xy 180.34 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9074,7 +9186,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 114.3) (xy 180.34 121.92)
+			(xy 180.34 115.57) (xy 180.34 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9134,7 +9246,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 157.48 134.62)
+			(xy 157.48 128.27) (xy 157.48 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9174,7 +9286,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 129.54) (xy 180.34 137.16)
+			(xy 180.34 130.81) (xy 180.34 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9204,7 +9316,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 142.24) (xy 157.48 149.86)
+			(xy 157.48 143.51) (xy 157.48 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9724,7 +9836,7 @@
 		(uuid "05d79105-defd-450e-9058-2f090ffe8dd8")
 	)
 	(label "SCLK"
-		(at 175.26 134.62 0)
+		(at 175.26 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9900,7 +10012,7 @@
 		(uuid "2667efbf-b1a5-448d-bd52-a5fe7c57364e")
 	)
 	(label "CIPO"
-		(at 124.46 147.32 0)
+		(at 124.46 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9933,7 +10045,7 @@
 		(uuid "2aca06b8-6758-49fb-8dc8-b3542aa55de3")
 	)
 	(label "~{RESET}"
-		(at 175.26 119.38 0)
+		(at 175.26 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10032,7 +10144,7 @@
 		(uuid "3247dc1b-e21b-40da-8638-376008dca1dd")
 	)
 	(label "COPI"
-		(at 175.26 127 0)
+		(at 175.26 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10065,7 +10177,7 @@
 		(uuid "3aa69179-270d-45aa-9008-c80ecd90e7ff")
 	)
 	(label "SCLK"
-		(at 124.46 144.78 0)
+		(at 124.46 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10263,7 +10375,7 @@
 		(uuid "4cc81c3e-9ae9-4fc2-a1c4-cebb958235e6")
 	)
 	(label "COPI"
-		(at 124.46 142.24 0)
+		(at 124.46 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10351,7 +10463,7 @@
 		(uuid "58ccb52d-9d9e-4279-8faa-d4986cae2ebe")
 	)
 	(label "CIPO"
-		(at 175.26 132.08 0)
+		(at 175.26 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10417,7 +10529,7 @@
 		(uuid "5e841535-27ae-43b1-b726-7ec3a71f4e2f")
 	)
 	(label "S2"
-		(at 162.56 139.7 180)
+		(at 162.56 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10505,7 +10617,7 @@
 		(uuid "68e72e28-a49e-4f7d-a406-c671b1768a1c")
 	)
 	(label "S0"
-		(at 175.26 139.7 0)
+		(at 175.26 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10549,7 +10661,7 @@
 		(uuid "6c417e47-1f11-42c7-8eb1-85b7ecc7bc1d")
 	)
 	(label "~{LDAC}"
-		(at 124.46 149.86 0)
+		(at 124.46 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10593,7 +10705,7 @@
 		(uuid "7632a018-3712-47a6-b036-3c08b58344e8")
 	)
 	(label "VCC"
-		(at 156.21 73.66 0)
+		(at 154.94 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10703,7 +10815,7 @@
 		(uuid "7fc1655c-a00f-430d-8581-a869981f4102")
 	)
 	(label "S1"
-		(at 175.26 142.24 0)
+		(at 175.26 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10813,7 +10925,7 @@
 		(uuid "8cd86649-eceb-4727-a109-49870bf22e2e")
 	)
 	(label "~{RESET}"
-		(at 124.46 152.4 0)
+		(at 124.46 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11099,7 +11211,7 @@
 		(uuid "a832c482-df9c-4d5c-8a5b-9a2ed5e80494")
 	)
 	(label "~{LDAC}"
-		(at 175.26 116.84 0)
+		(at 175.26 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11231,7 +11343,7 @@
 		(uuid "b6e3aa70-9945-408c-b687-4f5a449c2da1")
 	)
 	(label "~{CLR}"
-		(at 175.26 124.46 0)
+		(at 175.26 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11286,7 +11398,7 @@
 		(uuid "bf98c8d5-de29-4467-9749-0312fa6f5645")
 	)
 	(label "~{CLR}"
-		(at 124.46 154.94 0)
+		(at 124.46 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11726,7 +11838,7 @@
 		(uuid "f850efc7-16c4-43b4-ab48-7c66a546552a")
 	)
 	(label "CS"
-		(at 162.56 137.16 180)
+		(at 162.56 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11805,6 +11917,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C496549"
 			(at 242.57 119.38 0)
 			(effects
 				(font
@@ -12082,6 +12203,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2829996"
+			(at 266.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52a3c9dd-cc85-46ae-9e7c-6a0a7a31c091")
 		)
@@ -12132,7 +12262,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 76.2 90)
 			(effects
 				(font
@@ -12199,7 +12329,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "2.2k"
 			(at 224.536 23.876 0)
 			(effects
 				(font
@@ -12251,7 +12381,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 149.86 0)
+		(at 180.34 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12260,7 +12390,7 @@
 		(fields_autoplaced yes)
 		(uuid "138943a0-5ecc-4fbb-a292-04592d044787")
 		(property "Reference" "#PWR03"
-			(at 180.34 156.21 0)
+			(at 180.34 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +12399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 154.94 0)
+			(at 180.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12277,7 +12407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 149.86 0)
+			(at 180.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 149.86 0)
+			(at 180.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +12425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 149.86 0)
+			(at 180.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12428,6 +12558,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5156617"
 			(at 135.89 142.24 0)
 			(effects
 				(font
@@ -12656,6 +12795,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "416952f1-6a59-4b89-8590-2bdcd4fece0d")
 		)
@@ -12716,6 +12864,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2897426"
 			(at 88.9 151.13 0)
 			(effects
 				(font
@@ -12821,6 +12978,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 129.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "537e4a0d-1293-4d7c-9a6e-190fa3561a56")
 		)
@@ -12853,7 +13019,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 101.6 90)
 			(effects
 				(font
@@ -12949,6 +13115,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C49661"
 			(at 201.93 113.03 0)
 			(effects
 				(font
@@ -13158,6 +13333,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 201.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8458ed46-33af-4009-9d15-2e8791dcf17e")
 		)
@@ -13291,6 +13475,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c9f118d-f580-4b45-bcbd-440d4a7acdbc")
 		)
@@ -13350,6 +13543,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -13549,6 +13751,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 213.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C49661"
 			(at 213.36 105.41 0)
 			(effects
 				(font
@@ -13758,6 +13969,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5cad07a4-c8d6-401e-ae5a-1d161bce15e0")
 		)
@@ -13818,6 +14038,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 67.31 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 67.31 24.13 0)
 			(effects
 				(font
@@ -13887,6 +14116,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C49661"
 			(at 128.27 175.26 0)
 			(effects
 				(font
@@ -13965,6 +14203,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C496549"
+			(at 242.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "267dedff-4a47-4185-ad4d-3b1e402fa909")
 		)
@@ -13997,7 +14244,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 106.68 90)
 			(effects
 				(font
@@ -14165,6 +14412,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 142.24 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a537f4c-296d-41e7-a2d2-131885b3af74")
 		)
@@ -14197,7 +14453,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 96.52 90)
 			(effects
 				(font
@@ -14367,6 +14623,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ed81730-0a6a-4a78-ba6a-a4c841bc5fa3")
 		)
@@ -14428,6 +14693,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C49661"
 			(at 156.21 186.69 0)
 			(effects
 				(font
@@ -14572,6 +14846,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C496549"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eca8d3a1-9658-4ff2-9068-2aaa57701d69")
 		)
@@ -14695,6 +14978,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -14905,6 +15197,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e89216f7-c2e9-43fe-862e-591afe1d1b6d")
 		)
@@ -14966,6 +15267,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C49661"
 			(at 201.93 143.51 0)
 			(effects
 				(font
@@ -15107,6 +15417,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3087704b-8920-4fe7-bf83-11fab56f8dfe")
 		)
@@ -15166,6 +15485,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -15242,6 +15570,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C347220"
+			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4adf79b6-cef6-4d07-bb3c-3b7ae173f55a")
 		)
@@ -15304,6 +15641,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 163.83 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 163.83 20.32 0)
 			(effects
 				(font
@@ -15446,6 +15792,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41988aa7-8baa-4ce2-916e-3093ec9a37f4")
 		)
@@ -15506,6 +15861,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 67.31 30.48 0)
 			(effects
 				(font
@@ -15736,7 +16100,7 @@
 		(at 168.91 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "738a5ea4-6f9f-4b38-aadf-f931dbe78d4c")
@@ -15924,6 +16288,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2897426"
 			(at 38.1 181.61 0)
 			(effects
 				(font
@@ -16228,6 +16601,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 213.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d656215d-94d8-4ad2-bb8b-4b05b4bf19ed")
 		)
@@ -16364,6 +16746,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C496549"
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc5db94d-8de3-4974-b96c-713037f0ca3c")
 		)
@@ -16424,6 +16815,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2897426"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -16521,6 +16921,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 220.98 35.56 0)
 			(effects
 				(font
@@ -16664,6 +17073,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64a98996-9d59-4c4f-86a1-7f026e332ff5")
 		)
@@ -16795,6 +17213,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C49661"
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -17004,6 +17431,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 170.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75a0737b-c2ef-4856-a110-1e7672a7a5bc")
 		)
@@ -17136,6 +17572,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2897426"
+			(at 38.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62beba39-f0ad-47d9-a67b-1dbfe3a3085f")
 		)
@@ -17226,6 +17671,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2897426"
 			(at 38.1 119.38 0)
 			(effects
 				(font
@@ -17475,6 +17929,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 156.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6dd51d4-b083-4357-8154-98c23a16a89e")
 		)
@@ -17705,7 +18168,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 86.36 90)
 			(effects
 				(font
@@ -17874,6 +18337,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C106273"
+			(at 187.96 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b84477c1-3278-4cce-9964-08d1e48ecfc0")
 		)
@@ -17930,6 +18402,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 129.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 129.54 27.94 0)
 			(effects
 				(font
@@ -18000,6 +18481,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2829996"
 			(at 266.7 144.78 0)
 			(effects
 				(font
@@ -18085,6 +18575,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 67.31 45.72 0)
 			(effects
 				(font
@@ -18227,6 +18726,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2897426"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83a626b7-b5b5-4cd2-b0b0-c672ce2fdcca")
 		)
@@ -18274,7 +18782,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x12_Odd_Even")
-		(at 167.64 127 0)
+		(at 167.64 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18283,7 +18791,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab85940e-617d-4222-8790-45dd81f1c21a")
 		(property "Reference" "J1"
-			(at 168.91 107.95 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18291,7 +18799,7 @@
 			)
 		)
 		(property "Value" "Conn_02x12_Odd_Even"
-			(at 168.91 110.49 0)
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18807,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical"
-			(at 167.64 127 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18308,7 +18816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 127 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18317,7 +18825,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 127 0)
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C132440"
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,6 +19106,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 104.14 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c6dddda-a839-407b-8d73-1a91d913e5d5")
 		)
@@ -18651,6 +19177,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C496549"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -18826,7 +19361,7 @@
 				)
 			)
 		)
-		(property "Value" "CD74HC4051E"
+		(property "Value" "CD74HC4053PWR"
 			(at 256.794 62.484 0)
 			(effects
 				(font
@@ -18853,6 +19388,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C6546"
 			(at 256.54 69.85 0)
 			(effects
 				(font
@@ -19172,6 +19716,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C106272"
+			(at 187.96 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85c9005f-b022-4cd4-87fd-f0e1eac4bd12")
 		)
@@ -19230,6 +19783,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C49661"
 			(at 213.36 120.65 0)
 			(effects
 				(font
@@ -19308,6 +19870,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C496549"
+			(at 242.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94eea6d8-e422-4821-9e7b-709eec846f62")
 		)
@@ -19325,7 +19896,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 149.86 0)
+		(at 157.48 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19334,7 +19905,7 @@
 		(fields_autoplaced yes)
 		(uuid "c38f3297-f2a1-4b29-884c-5711a95532c5")
 		(property "Reference" "#PWR01"
-			(at 157.48 156.21 0)
+			(at 157.48 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19343,7 +19914,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 154.94 0)
+			(at 157.48 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19351,7 +19922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 149.86 0)
+			(at 157.48 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19360,7 +19931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 149.86 0)
+			(at 157.48 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19369,7 +19940,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 149.86 0)
+			(at 157.48 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19406,7 +19977,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 81.28 90)
 			(effects
 				(font
@@ -19543,7 +20114,7 @@
 				)
 			)
 		)
-		(property "Value" "AZ1084-3.3"
+		(property "Value" "AZ1084CD-3.3TRG1"
 			(at 205.74 49.53 0)
 			(effects
 				(font
@@ -19571,6 +20142,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C151391"
 			(at 205.74 53.34 0)
 			(effects
 				(font
@@ -19713,6 +20293,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c7226d4-d21d-498c-9408-f35030c09ca4")
 		)
@@ -19775,6 +20364,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2829996"
 			(at 267.97 45.72 0)
 			(effects
 				(font
@@ -19938,6 +20536,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C496549"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ff901a9-4ade-429b-b090-c7c2e2173440")
 		)
@@ -20007,6 +20614,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C49661"
+			(at 170.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b59dc713-a9e5-4180-bd01-cf11adaffcfa")
 		)
@@ -20067,6 +20683,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2897426"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -20440,6 +21065,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C496549"
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4aa2360f-2b82-4633-b47a-9681fa3d3575")
 		)
@@ -20500,6 +21134,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2897426"
 			(at 88.9 181.61 0)
 			(effects
 				(font
@@ -20740,6 +21383,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7466711"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7df63513-3922-430f-9dcc-bcfd9ec3122b")
 		)
@@ -20772,7 +21424,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 91.44 90)
 			(effects
 				(font
@@ -20823,6 +21475,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 160.02 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7952700-c281-4cba-9fc2-07bdeeb01a0a")
+		(property "Reference" "#PWR010"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39868bd9-4959-4334-8413-18617a5dc9ea")
+		)
+		(instances
+			(project ""
+				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 163.83 27.94 0)
 		(unit 1)
@@ -20866,6 +21585,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7466711"
 			(at 163.83 27.94 0)
 			(effects
 				(font
@@ -21039,7 +21767,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 132.08 111.76 90)
 			(effects
 				(font
