@@ -3,14 +3,12 @@
 "C2, C3",0805,2,10uF,
 C5,0805,1,0.1uF,
 "D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D2, D3, D4, D5, D6, D7, D8, D9",0805,19,HSMA-C170,C7466711
-"H1, H2, H4, H6, H7, H8",MountingHole_3.2mm_M3,6,MountingHole,
 J1,IDC-Header_2x12_P2.54mm_Vertical,1,Conn_02x12_Odd_Even,C132440
 "J10, J13, J15, J17, J18, J21, J7, J8",PinSocket_2x06_P2.54mm_Horizontal,8,Conn_02x06_Odd_Even,C2897426
-"J11, J12, J14, J16, J19, J20, J22, J24, J27, J30, J32, J34, J36, J39, J6, J9",PinSocket_1x02_P2.54mm_Vertical,16,Conn_01x02,C49661
+"J11, J12, J14, J16, J19, J20, J6, J9",PinSocket_1x02_P2.54mm_Vertical,8,Conn_01x02,C49661
 J2,MountingHole_6.4mm_M6_DIN965_Pad,1,Banana,C106273
-"J23, J26, J28, J29, J31, J33, J37, J38",SMA_Amphenol_132134-16_Vertical,8,~,C496549
-"J25, J35, J4",PinHeader_1x08_P2.54mm_Vertical,3,Conn_01x8,C2829996
 J3,MountingHole_6.4mm_M6_DIN965_Pad,1,Banana,C106272
+J4,PinHeader_1x08_P2.54mm_Vertical,1,Conn_01x8,C2829996
 J5,PinHeader_1x10_P2.54mm_Vertical,1,Conn_01x10,C5156617
 "R1, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27",0805,19,2.2k,
 "R2, R3, R4, R5, R6, R7, R8, R9",0805,8,10k,

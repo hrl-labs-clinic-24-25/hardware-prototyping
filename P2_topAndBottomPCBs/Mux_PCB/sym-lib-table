@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HRL_Custom")(type "KiCad")(uri "${KIPRJMOD}/customLibraries/HRL_Custom.kicad_sym")(options "")(descr "Banana and SMA"))
+)

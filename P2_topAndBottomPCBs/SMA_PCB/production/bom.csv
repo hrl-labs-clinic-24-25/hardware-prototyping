@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J22, J24, J27, J30, J32, J34, J36, J39",PinSocket_1x02_P2.54mm_Vertical,8,Conn_01x02,C49661
+"J23, J26, J28, J29, J31, J33, J37, J38",SMA_Amphenol_132134-16_Vertical,8,~,C496549
+"J25, J35",PinHeader_1x08_P2.54mm_Vertical,2,Conn_01x8,C2829996

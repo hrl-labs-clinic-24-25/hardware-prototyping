@@ -3431,141 +3431,6 @@
 				)
 			)
 		)
-		(symbol "HRL_Custom:SMA_Connector"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
@@ -4372,951 +4237,6 @@
 				)
 			)
 		)
-		(symbol "SMA_Connector_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_1_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SMA_Connector_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_2_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SMA_Connector_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_3_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_3_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SMA_Connector_4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_4_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_4_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SMA_Connector_5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_5_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_5_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SMA_Connector_6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_6_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_6_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SMA_Connector_7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMA_Connector_7_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMA_Connector_7_1_1"
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -5826,16 +4746,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 125.73) (xy 261.62 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "072b2a93-04bc-4560-8bd2-848394f93dd8")
-	)
-	(wire
-		(pts
 			(xy 96.52 124.46) (xy 96.52 127)
 		)
 		(stroke
@@ -5966,16 +4876,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 120.65) (xy 233.68 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112c7dd1-9ca6-4590-82bd-c200b0b4d283")
-	)
-	(wire
-		(pts
 			(xy 76.2 96.52) (xy 83.82 96.52)
 		)
 		(stroke
@@ -6003,16 +4903,6 @@
 			(type default)
 		)
 		(uuid "12ace0b1-5134-424f-9e41-279120147285")
-	)
-	(wire
-		(pts
-			(xy 218.44 105.41) (xy 233.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136c9c3e-fc9a-487b-bb96-cecd8dd0a00c")
 	)
 	(wire
 		(pts
@@ -6113,16 +5003,6 @@
 			(type default)
 		)
 		(uuid "1d65c8ef-6009-4b5b-b202-280b39240f1a")
-	)
-	(wire
-		(pts
-			(xy 207.01 140.97) (xy 233.68 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc4a63d-7722-4080-a6f9-f0d86fae50bd")
 	)
 	(wire
 		(pts
@@ -6236,16 +5116,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 128.27) (xy 233.68 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ac57999-e232-4a62-902f-49acc8424128")
-	)
-	(wire
-		(pts
 			(xy 157.48 120.65) (xy 157.48 128.27)
 		)
 		(stroke
@@ -6306,16 +5176,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 110.49) (xy 233.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c7f364-ebf8-4f3c-9195-c42c0f948116")
-	)
-	(wire
-		(pts
 			(xy 242.57 69.85) (xy 248.92 69.85)
 		)
 		(stroke
@@ -6326,16 +5186,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 115.57) (xy 261.62 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ae12ae-10a3-4485-bcba-1387556d9fbb")
-	)
-	(wire
-		(pts
 			(xy 96.52 176.53) (xy 102.87 176.53)
 		)
 		(stroke
@@ -6343,16 +5193,6 @@
 			(type default)
 		)
 		(uuid "31afbca3-f693-4fd2-ac73-88833c6c1b15")
-	)
-	(wire
-		(pts
-			(xy 218.44 133.35) (xy 233.68 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34c954f7-332c-4245-8b5b-d6a0bc7a9cee")
 	)
 	(wire
 		(pts
@@ -6466,16 +5306,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 147.32) (xy 261.62 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c882d17-d5a0-4be9-ada0-d2a6b281aac8")
-	)
-	(wire
-		(pts
 			(xy 151.13 189.23) (xy 148.59 189.23)
 		)
 		(stroke
@@ -6566,16 +5396,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 113.03) (xy 261.62 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4421fc09-23cd-40fa-a928-b9e71e82099f")
-	)
-	(wire
-		(pts
 			(xy 76.2 173.99) (xy 83.82 173.99)
 		)
 		(stroke
@@ -6593,16 +5413,6 @@
 			(type default)
 		)
 		(uuid "45200903-f45c-41e3-9f07-7f63b2d51a5f")
-	)
-	(wire
-		(pts
-			(xy 207.01 113.03) (xy 233.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4584b1fa-7716-4d96-a8fd-67629bb699e9")
 	)
 	(wire
 		(pts
@@ -6686,16 +5496,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 110.49) (xy 261.62 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b4d68f-79cf-4f8a-a2ea-1128ebdb14ad")
-	)
-	(wire
-		(pts
 			(xy 133.35 186.69) (xy 134.62 186.69)
 		)
 		(stroke
@@ -6753,16 +5553,6 @@
 			(type default)
 		)
 		(uuid "4bcce7b3-7035-4b4e-bdbb-f463b90f3202")
-	)
-	(wire
-		(pts
-			(xy 254 123.19) (xy 261.62 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cfe3975-fff7-4637-86fd-1ee870087c3b")
 	)
 	(wire
 		(pts
@@ -6836,16 +5626,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 135.89) (xy 233.68 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5215b53a-d70f-4cad-a64f-ce10d0513e12")
-	)
-	(wire
-		(pts
 			(xy 154.94 73.66) (xy 163.83 73.66)
 		)
 		(stroke
@@ -6913,16 +5693,6 @@
 			(type default)
 		)
 		(uuid "598c395d-e8a8-48b5-9485-437b3ee1c66a")
-	)
-	(wire
-		(pts
-			(xy 254 128.27) (xy 261.62 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a507a6f-5338-4e31-ba17-586bb55f0232")
 	)
 	(wire
 		(pts
@@ -7033,16 +5803,6 @@
 			(type default)
 		)
 		(uuid "667705f0-107d-4e0d-979e-8de7a07d7656")
-	)
-	(wire
-		(pts
-			(xy 218.44 148.59) (xy 233.68 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c0cea0-2510-4664-9d79-bfb24809831d")
 	)
 	(wire
 		(pts
@@ -7246,16 +6006,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 154.94) (xy 261.62 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77058986-463f-4802-891b-8a5e2259400d")
-	)
-	(wire
-		(pts
 			(xy 76.2 143.51) (xy 83.82 143.51)
 		)
 		(stroke
@@ -7303,16 +6053,6 @@
 			(type default)
 		)
 		(uuid "7c041460-557d-4e8b-854e-25264857c2f0")
-	)
-	(wire
-		(pts
-			(xy 207.01 143.51) (xy 233.68 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c446101-a1fb-4496-a6d4-d7bbaab74423")
 	)
 	(wire
 		(pts
@@ -7486,16 +6226,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 139.7) (xy 261.62 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881ab373-eec0-40d4-ad4c-883215f140e2")
-	)
-	(wire
-		(pts
 			(xy 120.65 189.23) (xy 120.65 186.69)
 		)
 		(stroke
@@ -7593,16 +6323,6 @@
 			(type default)
 		)
 		(uuid "8e9fe538-51d7-4276-8825-40469485ca66")
-	)
-	(wire
-		(pts
-			(xy 218.44 118.11) (xy 233.68 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eeed0ce-f859-468f-93f2-1dc8b19e4d21")
 	)
 	(wire
 		(pts
@@ -7726,16 +6446,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 118.11) (xy 261.62 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95040f5c-7f72-4682-a1eb-8472308bb510")
-	)
-	(wire
-		(pts
 			(xy 58.42 184.15) (xy 58.42 187.96)
 		)
 		(stroke
@@ -7793,16 +6503,6 @@
 			(type default)
 		)
 		(uuid "99490cf2-e2ae-4f47-b804-fbc165a8d5c4")
-	)
-	(wire
-		(pts
-			(xy 254 152.4) (xy 261.62 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99538eb4-7b9e-46ff-a7e9-82e6e43e34b9")
 	)
 	(wire
 		(pts
@@ -8076,16 +6776,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 120.65) (xy 261.62 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa859fc8-5339-4470-b409-eff285d2d5f1")
-	)
-	(wire
-		(pts
 			(xy 140.97 43.18) (xy 146.05 43.18)
 		)
 		(stroke
@@ -8136,16 +6826,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 149.86) (xy 261.62 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae583681-ae87-469b-929c-a4171fc599f0")
-	)
-	(wire
-		(pts
 			(xy 96.52 91.44) (xy 109.22 91.44)
 		)
 		(stroke
@@ -8193,16 +6873,6 @@
 			(type default)
 		)
 		(uuid "b0ca391a-835c-414b-b61e-e48c3300eb31")
-	)
-	(wire
-		(pts
-			(xy 207.01 156.21) (xy 233.68 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b25ce802-5e58-4e14-945d-8287b795f01f")
 	)
 	(wire
 		(pts
@@ -8266,16 +6936,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 102.87) (xy 233.68 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b65260-95b7-45fb-883d-04a233f353d9")
-	)
-	(wire
-		(pts
 			(xy 96.52 121.92) (xy 109.22 121.92)
 		)
 		(stroke
@@ -8333,16 +6993,6 @@
 			(type default)
 		)
 		(uuid "b9bf0521-c110-4589-b4f9-199179bc3b05")
-	)
-	(wire
-		(pts
-			(xy 207.01 158.75) (xy 233.68 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba390159-6275-445a-80e7-dc112eb76abb")
 	)
 	(wire
 		(pts
@@ -8796,16 +7446,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 151.13) (xy 233.68 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df150fa4-c8a8-4338-b7e5-577dd2cfb233")
-	)
-	(wire
-		(pts
 			(xy 33.02 124.46) (xy 33.02 127)
 		)
 		(stroke
@@ -8873,16 +7513,6 @@
 			(type default)
 		)
 		(uuid "e21972e3-625f-476e-b5b7-4bc34ba57482")
-	)
-	(wire
-		(pts
-			(xy 254 144.78) (xy 261.62 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a98c9d-16e3-42d8-a126-75945da3584d")
 	)
 	(wire
 		(pts
@@ -9036,16 +7666,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 142.24) (xy 261.62 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9fe6dca-abbd-47f3-90de-a18ae1b07a48")
-	)
-	(wire
-		(pts
 			(xy 100.33 24.13) (xy 97.79 24.13)
 		)
 		(stroke
@@ -9076,16 +7696,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 137.16) (xy 261.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eca3bf6e-0a5d-4e64-9b70-cf40e6966107")
-	)
-	(wire
-		(pts
 			(xy 135.89 111.76) (xy 138.43 111.76)
 		)
 		(stroke
@@ -9093,16 +7703,6 @@
 			(type default)
 		)
 		(uuid "ed65483f-13bb-40a1-9955-78c8b4a0a2c6")
-	)
-	(wire
-		(pts
-			(xy 207.01 125.73) (xy 233.68 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edcac05d-ac2d-4907-8128-7ff64e851c8b")
 	)
 	(wire
 		(pts
@@ -9371,18 +7971,6 @@
 		(uuid 3c627dcd-e690-46ee-a27e-2a1038c00347)
 	)
 	(rectangle
-		(start 193.04 97.79)
-		(end 281.94 162.56)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3fdf6e95-d537-4879-8fa2-a406d5c83662)
-	)
-	(rectangle
 		(start 181.61 13.97)
 		(end 229.87 93.98)
 		(stroke
@@ -9474,17 +8062,6 @@
 			(justify left bottom)
 		)
 		(uuid "0b78a60e-dc79-47ad-8fd9-f25bbd8790a5")
-	)
-	(text "8x DAC\nOutput SMA"
-		(exclude_from_sim no)
-		(at 259.08 106.426 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d047850-8a2d-48fb-aa69-f1da55d5f65a")
 	)
 	(text "DAC PMOD Ports"
 		(exclude_from_sim no)
@@ -9813,28 +8390,6 @@
 		)
 		(uuid "03f895c0-5b6a-4ade-9fad-bb7957ef4a20")
 	)
-	(label "OGND_7"
-		(at 223.52 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "059045bf-5bd4-4d80-8e75-93c3b0d07855")
-	)
-	(label "Vout_7"
-		(at 223.52 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05d79105-defd-450e-9058-2f090ffe8dd8")
-	)
 	(label "SCLK"
 		(at 175.26 135.89 0)
 		(fields_autoplaced yes)
@@ -9867,28 +8422,6 @@
 			(justify left bottom)
 		)
 		(uuid "08e8c430-04db-457a-8426-3f8f0a94b40f")
-	)
-	(label "OGND_0"
-		(at 223.52 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0eb8e2fc-7bda-4873-a98f-9e71755bdd34")
-	)
-	(label "Vout_5"
-		(at 254 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0eeb22f2-90dd-4209-a1ca-ea7f07974ea5")
 	)
 	(label "CS_0"
 		(at 123.19 76.2 0)
@@ -9956,17 +8489,6 @@
 		)
 		(uuid "1dd4577d-31be-4817-8d61-0c14e93f9b7c")
 	)
-	(label "OGND_1"
-		(at 254 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "200e0fcb-ee57-4a98-a056-d58b00d2505b")
-	)
 	(label "CS_0"
 		(at 255.27 38.1 0)
 		(fields_autoplaced yes)
@@ -9988,17 +8510,6 @@
 			(justify left bottom)
 		)
 		(uuid "21e54d1c-c410-4221-94c2-a6a55bcb48d8")
-	)
-	(label "Vout_2"
-		(at 254 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "229251d9-e09f-4aed-b1ca-9749bd63b3c9")
 	)
 	(label "CS_3"
 		(at 269.24 77.47 0)
@@ -10099,17 +8610,6 @@
 		)
 		(uuid "2f2ee063-7ae7-4f80-b28c-469594916778")
 	)
-	(label "Vout_1"
-		(at 223.52 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30b64b52-9dca-46bb-8f0e-0d23de47d8d6")
-	)
 	(label "CIPO"
 		(at 76.2 116.84 0)
 		(fields_autoplaced yes)
@@ -10198,17 +8698,6 @@
 		)
 		(uuid "3ef4a864-a938-4dc6-b79b-b646fd8f5384")
 	)
-	(label "OGND_4"
-		(at 223.52 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f158aec-0c62-4aa2-a5d2-48539fe81d2d")
-	)
 	(label "~{RESET}"
 		(at 52.07 114.3 0)
 		(fields_autoplaced yes)
@@ -10252,17 +8741,6 @@
 			(justify left bottom)
 		)
 		(uuid "43a2ebaf-0b7f-46f2-9d1b-cb404bb7cd4a")
-	)
-	(label "Vout_0"
-		(at 254 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45246b85-b551-4cb7-8105-47eca1609f02")
 	)
 	(label "CS_6"
 		(at 111.76 24.13 0)
@@ -10341,17 +8819,6 @@
 		)
 		(uuid "4b297bcb-6985-4ca8-9cea-548cd4d16a83")
 	)
-	(label "OGND_0"
-		(at 254 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bddd233-4155-4e63-9e69-9643b0f3a1eb")
-	)
 	(label "IOVcc"
 		(at 99.06 127 0)
 		(fields_autoplaced yes)
@@ -10407,28 +8874,6 @@
 		)
 		(uuid "4f293d2b-ebbc-4f7d-9f62-283647aad648")
 	)
-	(label "Vout_3"
-		(at 223.52 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f34707a-a7c0-4df8-9ec0-de97446774c8")
-	)
-	(label "Vout_3"
-		(at 254 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51cc69e4-2f5c-46c4-b139-7fb483a3b52d")
-	)
 	(label "CIPO"
 		(at 76.2 148.59 0)
 		(fields_autoplaced yes)
@@ -10472,17 +8917,6 @@
 			(justify left bottom)
 		)
 		(uuid "5aa2a957-d098-4bc5-a883-462787f9111f")
-	)
-	(label "OGND_7"
-		(at 254 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5afa0256-c108-4d25-b239-1d1a918a18d8")
 	)
 	(label "SCLK"
 		(at 25.4 119.38 0)
@@ -10539,17 +8973,6 @@
 		)
 		(uuid "6053eebd-83e6-458c-ac55-4358da75064e")
 	)
-	(label "Vout_4"
-		(at 223.52 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60c7ce78-9d8a-4787-99ad-d51b1b3e1e4f")
-	)
 	(label "CS_1"
 		(at 269.24 72.39 0)
 		(fields_autoplaced yes)
@@ -10561,17 +8984,6 @@
 		)
 		(uuid "61bceaad-11f5-4225-a2ed-34162171838f")
 	)
-	(label "OGND_6"
-		(at 223.52 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64cf12db-980a-4c12-b353-dc6565d49bc3")
-	)
 	(label "COPI"
 		(at 25.4 114.3 0)
 		(fields_autoplaced yes)
@@ -10582,28 +8994,6 @@
 			(justify left bottom)
 		)
 		(uuid "6697578c-13c0-4e85-8e23-dc21eac392f5")
-	)
-	(label "OGND_5"
-		(at 254 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67eb202d-2c1d-4d39-a480-3d60137aa3ac")
-	)
-	(label "Vout_2"
-		(at 223.52 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "689e362c-ffc4-45a8-b273-6f7ed0823ba5")
 	)
 	(label "SCLK"
 		(at 76.2 119.38 0)
@@ -10649,17 +9039,6 @@
 		)
 		(uuid "6ba971c1-a934-4cfd-97a0-1f348c4b551c")
 	)
-	(label "OGND_3"
-		(at 223.52 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c417e47-1f11-42c7-8eb1-85b7ecc7bc1d")
-	)
 	(label "~{LDAC}"
 		(at 124.46 142.24 0)
 		(fields_autoplaced yes)
@@ -10681,17 +9060,6 @@
 			(justify left bottom)
 		)
 		(uuid "72e1c9f9-ac44-4172-9423-34950ab7fec4")
-	)
-	(label "Vout_6"
-		(at 254 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "760a3ce8-1c7f-4b1d-9f68-03a16a79797a")
 	)
 	(label "SCLK"
 		(at 76.2 151.13 0)
@@ -10726,17 +9094,6 @@
 		)
 		(uuid "79dda9fd-e3bf-4647-9735-1581ee273a4e")
 	)
-	(label "Vout_1"
-		(at 254 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a82c85e-4e93-4a0d-96c3-862175f0de6d")
-	)
 	(label "IOVcc"
 		(at 48.26 96.52 0)
 		(fields_autoplaced yes)
@@ -10748,17 +9105,6 @@
 		)
 		(uuid "7b73f7f7-c706-4779-be57-9835617476ec")
 	)
-	(label "Vout_7"
-		(at 254 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d1c2998-fded-4875-9f52-a7795fdd5fe9")
-	)
 	(label "CS"
 		(at 124.46 139.7 0)
 		(fields_autoplaced yes)
@@ -10769,17 +9115,6 @@
 			(justify left bottom)
 		)
 		(uuid "7d5f1f3d-9280-4a5f-a7e4-a843230a3f86")
-	)
-	(label "Vout_0"
-		(at 223.52 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d679a91-ba29-4153-9ec7-6597f02c04fc")
 	)
 	(label "IOVcc"
 		(at 48.26 189.23 0)
@@ -10880,17 +9215,6 @@
 		)
 		(uuid "8591f554-21a9-49ea-859e-62a66f7a7fe9")
 	)
-	(label "OGND_5"
-		(at 223.52 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85d01493-e0ce-43e8-8f9b-4840bfda6b5b")
-	)
 	(label "CIPO"
 		(at 123.19 50.8 180)
 		(fields_autoplaced yes)
@@ -10934,17 +9258,6 @@
 			(justify left bottom)
 		)
 		(uuid "8d24eb4b-75d8-4a89-a459-044ba9d82994")
-	)
-	(label "Vout_6"
-		(at 223.52 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8da0189b-0e3f-496a-bff5-4aba8365553c")
 	)
 	(label "CIPO"
 		(at 76.2 179.07 0)
@@ -11111,39 +9424,6 @@
 		)
 		(uuid "a08158e0-6a43-4c9f-8a5c-53aa62a19581")
 	)
-	(label "OGND_3"
-		(at 254 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a08d816b-5d2a-47d5-818d-5064e4f46f07")
-	)
-	(label "OGND_2"
-		(at 254 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0e0428f-5281-4421-a788-72eea30a9f13")
-	)
-	(label "OGND_4"
-		(at 254 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a18008ff-be2a-4d9f-9b37-817f0bd9e2b8")
-	)
 	(label "IOVcc"
 		(at 26.67 127 0)
 		(fields_autoplaced yes)
@@ -11298,17 +9578,6 @@
 		)
 		(uuid "b470558c-e1ea-46e7-9abf-a22c73fd89be")
 	)
-	(label "Vout_4"
-		(at 254 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4ba78d7-51dc-441e-a3be-df87dd0ded4f")
-	)
 	(label "S0"
 		(at 170.18 20.32 0)
 		(fields_autoplaced yes)
@@ -11352,17 +9621,6 @@
 			(justify left bottom)
 		)
 		(uuid "bc2b019b-164b-451c-bb83-d8de51071386")
-	)
-	(label "OGND_6"
-		(at 254 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd9f2338-3a61-4f74-9ece-2761dec085de")
 	)
 	(label "CS_5"
 		(at 242.57 69.85 0)
@@ -11430,17 +9688,6 @@
 		)
 		(uuid "c59dbfa7-6e12-4476-88b3-46ff056768b4")
 	)
-	(label "Vout_5"
-		(at 223.52 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5f429db-5cbb-43f3-906e-458e01f416fa")
-	)
 	(label "SCLK"
 		(at 170.18 43.18 0)
 		(fields_autoplaced yes)
@@ -11484,17 +9731,6 @@
 			(justify left bottom)
 		)
 		(uuid "cdd62664-2f6a-493a-ab6e-a05f2a40a0e5")
-	)
-	(label "OGND_2"
-		(at 223.52 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf4a26b9-5fc5-40d4-a7da-e0b7c69eb8a9")
 	)
 	(label "muxPower"
 		(at 256.54 33.02 0)
@@ -11671,17 +9907,6 @@
 			(justify left bottom)
 		)
 		(uuid "e2fa2920-2ddf-4a18-bac1-280a795e23f9")
-	)
-	(label "OGND_1"
-		(at 223.52 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3f3f383-585b-4899-8d8d-17ecd855a723")
 	)
 	(label "COPI"
 		(at 25.4 83.82 0)
@@ -11869,85 +10094,6 @@
 			(justify left bottom)
 		)
 		(uuid "ffd8c503-61ed-4912-be4d-fe0301cd0c8e")
-	)
-	(symbol
-		(lib_name "SMA_Connector_3")
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01069160-a888-488a-a947-5557e2fea58b")
-		(property "Reference" "J28"
-			(at 245.11 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1062292-b85f-4cfe-9f2b-7fa5fe94ae67")
-		)
-		(pin "2"
-			(uuid "046f315e-d1ee-4a70-868e-ec24cdb819f9")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J28")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_name "GND_1")
@@ -12143,103 +10289,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 266.7 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b0c7332-7a73-4ca6-a2a8-4bb36385dd3c")
-		(property "Reference" "J25"
-			(at 269.24 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x8"
-			(at 269.24 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 266.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 266.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C2829996"
-			(at 266.7 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52a3c9dd-cc85-46ae-9e7c-6a0a7a31c091")
-		)
-		(pin "2"
-			(uuid "178ec4b5-77c1-4bad-9fb0-dfa33ab2e518")
-		)
-		(pin "3"
-			(uuid "c6233993-15f8-44b7-9f09-5297b888a639")
-		)
-		(pin "4"
-			(uuid "70dd962e-f9ce-483e-a28c-07d0fc448e28")
-		)
-		(pin "5"
-			(uuid "2718b4fc-1623-4d54-852b-98de04c308c0")
-		)
-		(pin "6"
-			(uuid "ffd31ad3-3058-4d3c-94ba-4f344bf211af")
-		)
-		(pin "7"
-			(uuid "3d92b7a2-5fe2-4603-a634-f6ed70e33ad2")
-		)
-		(pin "8"
-			(uuid "ec0f276a-f1fe-4066-8f59-d3cacb577ab0")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -12575,6 +10624,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9b3b760-df7c-4d4b-8f96-531658ccb0d2")
 		)
@@ -12881,6 +10939,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5c6510b-3203-4d21-9102-fcd82d842770")
 		)
@@ -13070,84 +11146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 201.93 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25474155-735f-4f70-ae56-0e2f01140069")
-		(property "Reference" "J24"
-			(at 203.708 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 207.772 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 201.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 201.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1492684-4c34-4c3c-b4eb-a673ff83934f")
-		)
-		(pin "2"
-			(uuid "ad8c02e7-b342-42a5-8a3f-5dac816f5e58")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 93.98 24.13 270)
 		(unit 1)
@@ -13274,84 +11272,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 201.93 158.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27f35691-6461-4b45-8df3-901da470d50b")
-		(property "Reference" "J39"
-			(at 203.708 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 207.772 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 201.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 201.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8458ed46-33af-4009-9d15-2e8791dcf17e")
-		)
-		(pin "2"
-			(uuid "707575a7-010e-4057-aad3-deda415a53ab")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J39")
 					(unit 1)
 				)
 			)
@@ -13700,84 +11620,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 213.36 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3874a9e3-1268-4335-a92a-aed410a18563")
-		(property "Reference" "J22"
-			(at 214.63 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 219.202 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 213.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 213.36 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62c0a7aa-e226-448e-b858-161a887febc1")
-		)
-		(pin "2"
-			(uuid "92e1c0d6-b4c4-4b1c-9a33-0221cbc6bf5c")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -14133,6 +11975,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 128.27 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6498a5db-8ebd-46bb-a4eb-a0a6eabd8a9f")
 		)
@@ -14143,85 +11994,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SMA_Connector_2")
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4164353e-f3e5-4e4a-8960-4bcb0f213b2d")
-		(property "Reference" "J26"
-			(at 245.11 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "267dedff-4a47-4185-ad4d-3b1e402fa909")
-		)
-		(pin "2"
-			(uuid "efdaf67c-cf46-4d98-990a-73680745c5a9")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -14295,70 +12067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 36.83 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e6f868-d34a-4ece-85cc-a23e09d2fe67")
-		(property "Reference" "H7"
-			(at 39.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 39.37 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 142.24 175.26 0)
 		(unit 1)
@@ -14413,6 +12121,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C49661"
+			(at 142.24 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 142.24 175.26 0)
 			(effects
 				(font
@@ -14632,6 +12349,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ed81730-0a6a-4a78-ba6a-a4c841bc5fa3")
 		)
@@ -14702,6 +12428,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C49661"
+			(at 156.21 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 156.21 186.69 0)
 			(effects
 				(font
@@ -14787,84 +12522,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "542f4c70-413f-44c8-8ed3-eb15c2b94e4b")
-		(property "Reference" "J38"
-			(at 245.11 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eca8d3a1-9658-4ff2-9068-2aaa57701d69")
-		)
-		(pin "1"
-			(uuid "d9a1bfc6-6175-4303-a11b-ab7d383f7dd5")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J38")
 					(unit 1)
 				)
 			)
@@ -15138,162 +12795,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 213.36 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "581af18b-6ddb-4e83-aff3-7d1373215ab0")
-		(property "Reference" "J36"
-			(at 215.138 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 219.202 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 213.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 213.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e89216f7-c2e9-43fe-862e-591afe1d1b6d")
-		)
-		(pin "2"
-			(uuid "73d491b7-7089-46be-83b1-bcf7a2d87bb5")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 201.93 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "593baa89-9165-49fa-9005-17eecbf674ce")
-		(property "Reference" "J34"
-			(at 203.708 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 207.772 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0eae389c-a00d-4b8e-b372-fc321a76a80d")
-		)
-		(pin "2"
-			(uuid "9dd4c21f-300f-4c38-9381-1a44b6ed0202")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -16305,6 +13806,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93e2e34d-f263-4091-9c4f-f5d512f1fab7")
 		)
@@ -16484,148 +14003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 36.83 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8225381d-7b97-4aa9-9f2e-fc92231293e1")
-		(property "Reference" "H8"
-			(at 39.37 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 36.83 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 213.36 135.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "845dbc57-9e5f-4553-84e3-fbbece165514")
-		(property "Reference" "J32"
-			(at 215.138 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 219.202 130.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d656215d-94d8-4ad2-bb8b-4b05b4bf19ed")
-		)
-		(pin "2"
-			(uuid "180c2b6a-3eb3-4b5b-b2c7-d11f52a8ef5f")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 20.32 125.73 0)
 		(unit 1)
@@ -16692,85 +14069,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SMA_Connector_7")
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84fe7c20-1af7-46c0-bc95-74cb9ed76634")
-		(property "Reference" "J37"
-			(at 245.11 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc5db94d-8de3-4974-b96c-713037f0ca3c")
-		)
-		(pin "2"
-			(uuid "64288a1e-9842-4c73-af3a-e83963d427da")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
 		(at 88.9 88.9 0)
 		(mirror x)
@@ -16824,6 +14122,24 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2897426"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -17082,6 +14398,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64a98996-9d59-4c4f-86a1-7f026e332ff5")
 		)
@@ -17162,84 +14487,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 201.93 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ea25bc6-2440-4424-984d-b23028e35196")
-		(property "Reference" "J30"
-			(at 203.708 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 207.772 122.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 201.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 201.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68fb9632-2ac9-4b5e-adc0-1725d960c7c3")
-		)
-		(pin "2"
-			(uuid "05241ceb-138f-47a8-afe4-dc0b222c8bec")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -17440,6 +14687,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 170.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75a0737b-c2ef-4856-a110-1e7672a7a5bc")
 		)
@@ -17450,70 +14706,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 16.51 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9750d78a-28bc-4e03-9ebb-5cb7cdbb0817")
-		(property "Reference" "H5"
-			(at 19.05 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 19.05 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 16.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 16.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -17573,6 +14765,24 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2897426"
+			(at 38.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 38.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
 			(at 38.1 151.13 0)
 			(effects
 				(font
@@ -17680,6 +14890,24 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2897426"
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
 			(at 38.1 119.38 0)
 			(effects
 				(font
@@ -17930,6 +15158,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C49661"
+			(at 156.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 156.21 175.26 0)
 			(effects
 				(font
@@ -18435,103 +15672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 266.7 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab17445e-7c9f-4a47-b9b4-72c8010d5527")
-		(property "Reference" "J35"
-			(at 269.24 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x8"
-			(at 269.24 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C2829996"
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5271730-6479-423e-bad8-bd6510d303dc")
-		)
-		(pin "2"
-			(uuid "688a5740-dcae-4ea3-bf03-d01d63720668")
-		)
-		(pin "3"
-			(uuid "ae6f52a2-c16f-42a0-a20d-a292b054ab2d")
-		)
-		(pin "4"
-			(uuid "f8a946a1-01e6-4146-b28c-501cfc7349c3")
-		)
-		(pin "5"
-			(uuid "d9bb91f4-1925-4765-8c6c-658c7257e0e8")
-		)
-		(pin "6"
-			(uuid "8905e03a-f5f9-4492-a5de-59115d9ec88f")
-		)
-		(pin "7"
-			(uuid "b270ba44-86fd-4555-9868-f69f806f3c98")
-		)
-		(pin "8"
-			(uuid "ef9bb668-2d50-4e7c-8342-f6c02ceb36eb")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 67.31 45.72 180)
 		(unit 1)
@@ -18735,6 +15875,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83a626b7-b5b5-4cd2-b0b0-c672ce2fdcca")
 		)
@@ -18834,6 +15992,24 @@
 			)
 		)
 		(property "JLCPCB Part #" "C132440"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.5,0"
 			(at 167.64 128.27 0)
 			(effects
 				(font
@@ -19125,85 +16301,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SMA_Connector_1")
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeaff201-ffba-4b89-b4c4-1f1f3aee1d89")
-		(property "Reference" "J23"
-			(at 245.11 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab9a7547-6793-4bb5-92d3-f85829a6f741")
-		)
-		(pin "2"
-			(uuid "9ead2cd6-00df-451a-8c19-a054c08938fc")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -19738,163 +16835,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 213.36 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be330f4c-db07-4157-af3b-c5cf0e50d8ac")
-		(property "Reference" "J27"
-			(at 215.138 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 219.202 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 213.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C49661"
-			(at 213.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa96f568-432e-4e7e-ac6e-c4669fdf7a17")
-		)
-		(pin "2"
-			(uuid "a20251bb-e0fe-444b-aabf-2f1147f56975")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SMA_Connector_5")
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2f59c8c-7599-4445-8db0-07946255f8d7")
-		(property "Reference" "J31"
-			(at 245.11 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94eea6d8-e422-4821-9e7b-709eec846f62")
-		)
-		(pin "2"
-			(uuid "d30d3bad-53c0-4276-972d-1a0deaf21bb5")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 157.48 147.32 0)
 		(unit 1)
@@ -20381,6 +17321,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 267.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3ca1472-e51d-46fc-aa3f-54d618fe5cd4")
 		)
@@ -20482,85 +17431,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SMA_Connector_6")
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2f58f11-f756-4635-b943-94d9d29b86a9")
-		(property "Reference" "J33"
-			(at 245.11 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ff901a9-4ade-429b-b090-c7c2e2173440")
-		)
-		(pin "2"
-			(uuid "d2cce378-7223-4f3e-b5bf-12cf185f3b17")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 170.18 175.26 0)
 		(unit 1)
@@ -20615,6 +17485,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C49661"
+			(at 170.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 170.18 175.26 0)
 			(effects
 				(font
@@ -20692,6 +17571,24 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2897426"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -21011,85 +17908,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SMA_Connector_4")
-		(lib_id "HRL_Custom:SMA_Connector")
-		(at 242.57 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da84cda3-aaec-48d6-84bc-db9880378f61")
-		(property "Reference" "J29"
-			(at 245.11 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical"
-			(at 242.57 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C496549"
-			(at 242.57 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4aa2360f-2b82-4633-b47a-9681fa3d3575")
-		)
-		(pin "1"
-			(uuid "2543ce41-a698-4ac1-9d47-f114603206f6")
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "J29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
 		(at 88.9 181.61 0)
 		(mirror x)
@@ -21143,6 +17961,24 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2897426"
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "4.2,0"
 			(at 88.9 181.61 0)
 			(effects
 				(font
@@ -21812,70 +18648,6 @@
 			(project "mux2Schematic"
 				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 16.51 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe76c310-0b1b-43a1-8e9c-5c09fc452362")
-		(property "Reference" "H6"
-			(at 19.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 19.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 16.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 16.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mux2Schematic"
-				(path "/da792483-f2a8-4ec5-a19b-2da39524fbcc"
-					(reference "H6")
 					(unit 1)
 				)
 			)
