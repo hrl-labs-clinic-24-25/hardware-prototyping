@@ -1,2 +1,2 @@
 # hardware-prototyping
-Mostly arduino code for simulating the output of the FPGA. Mainly used to control DACs with SPI.
+This repository contains the project files and intiial prototyping work which created the QUACK box. The published QUACK website may be found [here](https://hrl-labs-clinic-24-25.github.io/website/).
